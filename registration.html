@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Web Site</title>
+  </head>
+  <body >
+    <center>
+    <nav>
+      <span>
+        <a href="index.html"  title="index" style="color: black"  > Main Page //</a>
+
+        <a href="films.html" title="Films"style="color: black"> Films//</a>
+  
+        <a href="books.html" title="Books"style="color: black"> Books //</a>
+
+        <a href="musics.html" title="Musics"style="color: black"> Musics //</a>
+  
+        <a href="usefullinks.html" title="usefullinks"style="color: black"> Useful Links //</a>
+  
+        <a href="contactme.html" title="contactme"style="color: black">>Contact Me //</a>
+
+        <a href="registration.html" title="registration"style="color: black"><font size="6px">Register</font> //</a>  
+      </span>
+    </nav>
+
+    <form method="post" >
+      <fieldset >
+        <legend>Registration Form</legend>
+        <label for="fname"> Name : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label>
+        <input type="text" name="name" id="fname"> <br>
+        <label for="sname"> Surname : &nbsp; &nbsp; &nbsp; &nbsp;</label>
+        <input type="text" name="surename" id="sname"> <br>
+        <label for="birthday">Date Of Birth: &nbsp; </label>
+        <input type="date" id="birthday" name="birthday"><br>
+        <label for="mail"> Email: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label>
+        <input type="email" name="email" id="mail"> <br>
+        <label for="password">Password:&nbsp; &nbsp; &nbsp; &nbsp; </label>
+        <input type="password" id="password" name="password"><br> <br>
+        <label for="genderList"> Gender: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+        <select name="gender" id="genderList">
+          <option value="m">Male</option>
+          <option value="f">Female</option>
+        </select><br> <br>
+        <label for="abtMe"> About Me: &nbsp; &nbsp; </label>
+        <textarea rows="6" cols="60" name="about" id="abtMe" ></textarea> <br>
+        <br>
+        <label for "uploadpic" > Upload Your Photo: </label>
+        <input type="file" name="PhotoToUpload" id="uploadpic">
+        <br>
+        <br>
+        
+
+      </fieldset> <br>
+      <input type="submit" value="Submit" onclick="alert('Thanks For Your Registration!');">
+      <a href="registration.html"> <input type="submit" value="Reset" ></a>
+    </form>
+    <footer>
+      <a href="index.html"> <img src="http://mjoseph.com.au/wp-content/uploads/2016/06/IMAGE-1.png" style="width: 50px; height: 50px"></a>
+    </footer>
+    
+  </body>
+</html>
